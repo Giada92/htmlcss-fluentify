@@ -13,6 +13,10 @@ body {
     width: 80%;
     margin: 0 auto;
 }
+.container2 {
+    width: 70%;
+    margin: 0 auto;
+}
 
 .clearfix::after {
     content: "";
@@ -55,10 +59,11 @@ body {
     text-align: center;
 }
 .text-p.grey{
+    line-height: 1.3;
     color: gray;
 }
 
-hr {
+.hr-text {
     width: 15%;
     margin: 25px auto;
     text-align: center;
@@ -179,18 +184,37 @@ h1 {
 }
 
 .center-section {
-    width: calc(34% - 20px);
-    margin: 0 10px;
-    background-color: blue;
-}
-
-.rigth-section {
-    background-color: violet;
+    width: calc(34% - 40px);
+    margin: 0 20px;
 }
 
 .box-img > img {
     width: 100%;
-    height: 200px;
+    height: 180px;
     margin-bottom: 20px;
 }
 
+/* main-Test */
+#hr-section {
+    width: 98%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    background-color:  #d1cece;
+}
+
+.section-test-img,
+.section-test-text {
+    width: 50%; 
+}
+.section-test-img > img {
+    width: 100%;
+}
+.section-test-text {
+    padding: 0 50px 0 80px;
+}
+.section-test-text > h2 {
+    font-size: 35px;    
+}.section-test-text > p {
+    text-align: left;
+    margin: 15px 0;
+}

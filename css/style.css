@@ -23,6 +23,48 @@ body {
     float: left;
 }
 
+.btn {
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: 1px solid white;
+    color: white;
+    text-transform: uppercase;
+}
+.btn-lg {
+    text-decoration: none;
+    padding: 20px 30px;
+}
+
+.bg-grey {
+    background-color: #d1cece;
+}
+
+.title-h2 {
+    letter-spacing: -1px;
+    font-weight: 500;
+    font-size: 28px;
+    text-align: center;
+}
+.title-h2.green {
+    color:  #73ac02;
+}
+
+.text-p {
+    font-size: 20px;
+    font-weight: 450;
+    text-align: center;
+}
+.text-p.grey{
+    color: gray;
+}
+
+hr {
+    width: 15%;
+    margin: 25px auto;
+    text-align: center;
+}
+
+
 /* Header */
 header {
     height: 550px;
@@ -74,14 +116,6 @@ header {
     color: #73ac02;
 }
 
-.btn {
-    padding: 10px 30px;
-    border-radius: 5px;
-    border: 1px solid white;
-    color: white;
-    text-transform: uppercase;
-}
-
 .btn.blue {
     background-color: #4F82B5;
 }
@@ -117,7 +151,46 @@ h1 {
     color: white;
 }
 
-.btn-lg {
-    text-decoration: none;
-    padding: 20px 30px;
+/* main */
+#main-title {
+    width: 100%;
+    height: 150px;
+    position: relative; 
 }
+.main-text {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.main-text > h2 {
+    line-height: 1.7;
+}
+
+/* main-info corso */
+.main-section {
+    margin: 40px 0;
+}
+
+.left-section,
+.rigth-section {
+    width: 33%;
+}
+
+.center-section {
+    width: calc(34% - 20px);
+    margin: 0 10px;
+    background-color: blue;
+}
+
+.rigth-section {
+    background-color: violet;
+}
+
+.box-img > img {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 20px;
+}
+

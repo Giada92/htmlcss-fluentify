@@ -9,7 +9,11 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.container {
+a {
+    text-decoration: none;
+}
+
+.container-80 {
     width: 80%;
     margin: 0 auto;
 }
@@ -35,7 +39,6 @@ body {
     text-transform: uppercase;
 }
 .btn-lg {
-    text-decoration: none;
     padding: 20px 20px;
 }
 
@@ -112,7 +115,6 @@ header {
     padding: 0 10px;
 }
 .list-inline a {
-    text-decoration: none;
     text-transform: uppercase;
     font-size: 12px;
     color: white;
@@ -241,7 +243,7 @@ footer {
     font-size: 30px;
 }
 
-#select {
+/* #select {
     margin: 0 20px;
     border: none;
     background-color: #d1cece;
@@ -253,9 +255,30 @@ footer {
 label,
 #select {
     color: grey;
+} */
+
+.inline {
+    display: inline-block;
+    font-weight: bold;
 }
 
-.box-label a:nth-child(4) {
+.inline > p,
+.inline span {
+    margin: 0 30px;
+    color:  grey;
+}
+
+.inline span {
+    font-size: 1.2em;
+    border-bottom: 1px solid grey;
+}
+
+.fas {
+    padding-left: 50px;
+}
+
+/* Pulsante Help */
+body > a {
     position: fixed;
     bottom: 0;
     right: 15%;

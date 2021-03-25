@@ -46,6 +46,10 @@ a {
     background-color: #d1cece;
 }
 
+.bg-blue {
+    background-color: #4F82B5;
+}
+
 .title-h2 {
     letter-spacing: -1px;
     font-weight: 500;
@@ -70,6 +74,14 @@ a {
     width: 15%;
     margin: 25px auto;
     text-align: center;
+}
+
+.c-grey {
+    color: gray;
+}
+
+h3 {
+    letter-spacing: 1px;
 }
 
 
@@ -213,7 +225,7 @@ h1 {
     width: 100%;
 }
 .section-test-text {
-    padding: 0 50px 0 80px;
+    padding: 0 50px 0 50px;
 }
 .section-test-text > h2 {
     font-size: 35px;    
@@ -222,23 +234,23 @@ h1 {
     margin: 15px 0;
 }
 
-/* Footer */
-footer {
+/* Sezione grigia della pagina */
+#sectio-grey {
     height: 180px;
-    margin-top: 40px;
+    margin: 40px 0 50px 0;
     line-height: 150px;
 }
 
-.footer-sx,
-.footer-dx {
+.section-sx,
+.section-dx {
     width: 50%;
 }
 
-.footer-dx {
+.section-dx {
     text-align: right;
 }
 
-.footer-sx > h2 {
+.section-sx > h2 {
     vertical-align: middle;
     font-size: 30px;
 }
@@ -277,6 +289,76 @@ label,
     padding-left: 50px;
 }
 
+/* Parte due dell'esercizio */
+
+.margin-top {
+    margin-top: 30px;
+}
+.margin {
+    margin: 30px 0 30px 0;
+}
+
+#no-btn {
+    color: blue;
+}
+
+.computer {
+    height: 550px;
+    position: relative;
+}
+
+.box-computer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    text-align: center;
+}
+
+.content-img {
+    width: 100%;
+    text-align: center;
+}
+.margin-10 {
+    margin: 20px 0;
+}
+
+span {
+    color: #73ac02;
+}
+
+.h-350 {
+    height: 350px;
+}
+
+.box-blue-text {
+    width: 40%;
+}
+.box-blue-text > h3,
+.box-blue-text > p {
+    color: white;
+    padding: 15px 0;
+}
+
+.box-blue {
+    position: relative;
+    height: 350px;
+}
+.box-blue-text {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(0 , -50%);
+}
+
+
+
+
+
+
+
+
+
 /* Pulsante Help */
 body > a {
     position: fixed;
@@ -284,3 +366,4 @@ body > a {
     right: 15%;
     line-height: 1.1;
 }
+

@@ -11,239 +11,279 @@
         <title>Fluentily</title>
     </head>
     <body>
-        <!-- Intestazione Pagina -->
-        <header>
+        <!-- Header -->
+        <header class="bg-blue">
             <!-- Contenitore 80% -->
             <div class="container-80">
-                <!-- Barra del menù -->
-                <div class="header-nav clearfix">
-                    <div class="header-logo float-left">
-                        <img src="img/logo.svg" alt="Logo Fluentily">
+                <div class="clearfix w-100">
+                    <!-- Header - Logo -->
+                    <div id="logo" class="w-10 float-left">
+                        <img src="img/logo.svg" alt="Fluentily Logo">
                     </div>
-                    <nav class="nav-center float-left">
-                        <ul class="list-inline">
+                    <!-- /Header - Logo -->
+
+                    <!-- Header - Nav -->
+                    <nav class="w-50 float-left">
+                        <ul class="list-style">
                             <li>
-                                <a href="#">il metodo</a>
+                                <a href="#">Il metodo</a>
                             </li>
                             <li>
-                                <a href="#">la tecnologia</a>
+                                <a href="#">La tecnologia</a>
                             </li>
                             <li>
-                                <a href="#">real-life english</a>
+                                <a href="#">Real-life english</a>
                             </li>
                             <li>
-                                <a href="#">soluzioni aziendali</a>
+                                <a href="#">Soluzioni Aziendali</a>
                             </li>
                         </ul>
                     </nav>
-                    <div class="header-btn float-left">
-                        <ul class="list-inline">
+                    <!-- /Header - Nav -->
+
+                    <!-- Header - Login -->
+                    <div id="login" class="w-40 float-left">
+                        <ul class="list-style">
                             <li>
-                                <a href="#">diventa un tutor</a>
+                                <a href="#">Diventa un tutor</a>
                             </li>
                             <li>
-                                <a class="btn blue" href="#">login</a>
+                                <a class="btn" href="#">Login</a>
                             </li>
                             <li>
-                                <a class="btn green" href="#">struttura un piano</a>
+                                <a class="btn green" href="#">Struttura un piano</a>
                             </li>
                         </ul>
                     </div>
+                    <!-- Header - Login -->
                 </div>
-                <!-- /Barra del menù -->
-
-                <!-- jumbotron -->
-                <div class="jumbotron">
-                    <div class="jumbotron-text">
+                <!-- Header - jumbotron -->
+                <div id="jumbotron" class="w-50 rel-pos">
+                    <div class="jambotron-text c-white">
                         <h1>Scegli l'inglese studiato per i professionisti</h1>
-                        <a class="btn green btn-lg" href="#">Struttura un piano</a>
-                    </div>                    
-                </div>   
-                <!-- /jumbotron -->
-            </div>
+                        <a class="btn lg green" href="#">Struttura un piano</a>
+                    </div>
+                </div>
+                <!-- /Header - jumbotron -->
+            </div>          
             <!-- /Contenitore 80% -->
         </header>
-        <!-- /Intestazione Pagina -->
-
-        <!-- Corpo della pagina -->
+        <!-- /Header -->
+        
+        <!-- Main -->
         <main>
-            <!-- Sfondo grigio -->
-            <div class="bg-grey">
-                <!-- Contenitore 80% -->
-                <div class="container-80">
-                    <!-- Titolo Main -->
-                    <section id="main-title">
-                        <div class="main-text">
-                            <h2 class="title-h2">Le scuole di lingua tradizionali non sono efficienti</h2>
-                            <p class="text-p grey">Solo un corso incentrato sulla Fluency può portare ad una soluzione definitiva concreta.</p>
-                        </div>                        
-                    </section>
-                    <!-- /Titolo Main -->
-                </div>
-                <!-- /Contenitore 80% -->              
-            </div>   
-             <!-- /Sfondo grigio -->
-
-             <!-- Contenitore 80% -->
-             <div class="container-80">
-                 <!-- Info corso  -->
-                 <div class="main-section clearfix">
-                    <section class="left-section float-left">
-                        <div class="box-img">
-                            <img src="img/profile.svg" alt="Img profilo">
-                        </div>                        
-                        <h2 class="title-h2 green">Piano formativo configurato sul proprio livello</h2>
-                        <hr class="hr-text">
-                        <p class="text-p grey">Un metodo improntato sullo speaking con percorsi basati esattamente sulle esigenze personali dei partecipanti. Tutto parte da un accurato test di partenza per definire il livello e impostare gli obbiettivi da raggiungere</p>
-                    </section> 
-
-                    <section class="center-section float-left">
-                        <div class="box-img">
-                            <img src="img/computer.svg" alt="Pc">
-                        </div>                        
-                        <h2 class="title-h2 green">Affiancamento costante del tutor</h2>
-                        <hr class="hr-text">
-                        <p class="text-p grey">Scopri il syllabus, la guida per il tuo percorso. Scegli gli argomenti per passare al livello successivo e affrontali con i tutor nelle sessioni one-to-one.</p>
-                    </section>   
-
-                    <section class="rigth-section float-left">
-                        <div class="box-img">
-                            <img src="img/doc.svg" alt="Documento">
-                        </div>                        
-                        <h2 class="title-h2 green">Monitora i tuoi progressi costantemente</h2>
-                        <hr class="hr-text">
-                        <p class="text-p grey">Controlla i tuoi progressi con i dati elaborati dal nostro sistema. Hai il pieno controllo su miglioramenti e obbiettivi raggiunti.</p>
-                    </section>                   
-                 </div> 
-                 <!-- /Info corso  -->
-             </div>
-             <!-- /Contenitore 80% -->
-
-             <hr id="hr-section"> <!-- Linea di separazione delle due sezioni -->
-
-             <!-- Contenitore 70% -->
-             <div class="container-70">
-                <!-- Sezione del Test -->
-                <section class="section-test clearfix">
-                    <div class="section-test-img float-left">
-                        <img src="img/mountain.svg" alt="Illustrazione percorso">
-                    </div>
-                    <div class="section-test-text float-left">
-                        <h2>Scopri il tuo livello iniziale e struttura un piano personalizzato</h2>
-                        <p class="text-p grey">L'esperienza Fluentify parte sempre da un test di placement per avere una chiara visione del tuo inglese, ad oddi,</p>
-                        <a href="#">Scopri il nostro test di placementi</a>
-                    </div>
-                </section>
-                <!-- /Sezione del Test -->
-             </div>          
-            <!-- /Contenitore 70% -->
-
-            <!-- Sezione grigia della pagina -->
-            <section id="sectio-grey" class="bg-grey">
-                <!-- Contenitore 80% -->
-                    <div class="container-80">
-                        <div class="clearfix">
-                            <div class="section-sx float-left">
-                                <h2>Struttura un piano</h2>
-                            </div>
-                            <div class="section-dx float-left">
-                                <div class="inline">
-                                    <p>Sono 
-                                        <Span>Seleziona<i class="fas fa-sort-down"></i></Span>
-                                    </p>
-                                </div>
-                                <a class="btn green btn-lg" href="#">Visuallizza il tuo piano</a>
-
-                                <!-- UTILIZZATO IL TAG SELECT -->
-                                <!-- <div class="box-label">
-                                    <label for="select">Sono</label>
-                                        <select name="" id="select">
-                                            <option value="0">Seleziona</option>
-                                            <option value="1">Principiante</option>
-                                            <option value="2">Intermedio</option>
-                                            <option value="3">Esperto</option>
-                                        </select>
-                                    <a class="btn green btn-lg" href="#">Visuallizza il tuo piano</a>
-                                </div>      --> 
-                                <!-- /UTILIZZATO IL TAG SELECT -->                            
-                                
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /Contenitore 80% -->                             
-            </section>
-            <!-- /Sezione grigia della pagina -->  
+            <!-- Titolo del main -->
+            <div class="main-title bg-grey text-center">
+                <h2>Le scuole di lingua tradizionali non sono efficaci</h2>
+                <p>Solo un corso incentrato sulla Fluency può portare ad una soluzione definitiva concreta.</p>
+            </div>
+            <!-- /Titolo del main -->
 
             <!-- Contenitore 80% -->
             <div class="container-80">
-                <!-- Real Life -->
-                <section class="section-test clearfix margin">
-                    <div class="section-test-img float-left">
-                        <img src="img/shakehands.svg" alt="Stretta di mano">
-                    </div>
-                    <div class="section-test-text float-left margin-top">
-                        <div>
-                            <h3>Solo l'inglese che ti serve davvero</h3>
+                <!-- Sezione a tre colonne -->
+                <section id="info-section" class="clearfix w-100 text-center">
+                    <div class="col-left float-left">
+                        <img src="img/profile.svg" alt="Profilo">
+                        <div class="info-section-text">
+                            <h2>Piano formativo configurato sul proprio livello</h2>
                         </div>
-                        <div class="margin">
-                            <p class="c-grey">Molto più di semplici conversazioni, le sessioni con i nostri tutor ricreano le più diverse situazioni professionali</p>
-                        </div>                                               
-                            <ul class="list-inline">
-                                <li>
-                                    <a class="btn green" href="#">Scopri il real life</a>
-                                </li>
-                                <li>
-                                    <a id="no-btn" href="#">il metodo improntato <br> sullo speaking</a>
-                                </li>                                                    
-                         </div>
+                        <div class="horizontal-line w-20 text-center"></div>
+                        <p>Un metodo improntato sullo speaking con percorsi basati esattamente sulle esigenze personali dei partecipanti. Tutto parte da un accurato test di partenza per definire il livello e impostare gli obbiettivi da raggiungere.</p>
+                    </div>   
+                    <div class="col-md float-left">
+                        <img src="img/computer.svg" alt="Computer">
+                        <div class="info-section-text">
+                            <h2>Affiancamento costante del tutor</h2>
+                        </div>
+                        <div class="horizontal-line w-20 text-center"></div>
+                        <p>Scopri il syllabus, la guida per il tuo percorso. Scegli gli argomenti per passare al livello successivo e affrontali con il tutor nelle sessione one-to-one.</p>
+                    </div>
+                    <div class="col-right float-left">
+                        <img src="img/doc.svg" alt="Documento">
+                        <div class="info-section-text">
+                            <h2>Monitora i tuoi progressi costantemente</h2>
+                        </div>
+                        <div class="horizontal-line w-20 text-center"></div>
+                        <p>Controlla i tuoi progressi con i dati elaborati dal nostro sistema. Hai il pieno controllo su miglioramenti e obbiettivi raggiunti.</p>
+                    </div>  
                 </section>
-                <!-- /Real Life -->
-             </div>          
+                <!-- /Sezione a tre colonne -->
+            </div>
             <!-- /Contenitore 80% -->
 
-            <hr id="hr-section"> <!-- Linea di separazione delle due sezioni -->
+            <hr>
 
-            <!-- Dove trovarci -->
+            <!-- Contenitore 80% -->
+            <div class="container-80">
+                <!-- Sezione a due colonne -->
+                <section id="start-level" class="clearfix w-100">
+                    <aside class="start-level-img float-left w-40">
+                        <img src="img/mountain.svg" alt="Montagna">
+                    </aside>
+                    <aside class="start-level-text float-right w-50">
+                        <h2>Scopri il tio livello iniziale e struttura un piano personalizzato</h2>
+                        <p>L'esperienza Fluenty parte sempre da un test di placement per avere una chiara visione del tuo inglese, ad oggi.</p>
+                        <a href="#">Scopri il nostro test di placement</a>
+                    </aside>
+                </section>
+                <!-- /Sezione a due colonne -->
+            </div>
+            <!-- /Contenitore 80% -->
+
+            <!-- Sezione Banner grigia -->
+            <section id="banner-grey" class="bg-grey w-100"">
                 <!-- Contenitore 80% -->
-                <div class="container-80">
-                    <!-- Titolo Main -->
-                    <section class="computer">
-                        <div class="box-computer">
-                            <div class="content-img">
-                                <img src="img/set.svg" alt="PC">
-                                <h3 class="margin-10">Ci trovi su Pc, Mobile e Tablet, <span>24/7</span></h3>
-                                <h5 class="margin-10" class="c-grey">Tutor da tutto il mondo disponibili 24 ore al giorno 7 giorni su 7, anche nei weekend</h5>
-                                <p class="c-grey margin-10">Tutto direttamente sul tuo pc grazie alla videoconferenza integrata nella piattaforma e sui dispositivi mobile con la app dedicata.</p>
-                                <a class="margin-10" href="#">Comue funziona</a>
-                            </div> 
-                        </div>                                                
-                    </section>
-                    <!-- /Titolo Main -->
-                </div>
-                <!-- /Contenitore 80% --> 
-                
-                
-            <!-- Fascia Blu della pagina -->
-            <section  class="bg-blue h-350">
-                <!-- Contenitore 70% -->
-                    <div class="container-70">
-                        <div class="box-blue">
-                            <div class="box-blue-text">
-                                <h3 class="margin-10">Fai parlare inglese alla tua azienda</h3>
-                                <p class="margin-10">Piani formativi personalizzati e specifici per ogni esidenza, con tutti gli strumenti di controllo che ti servono per il tuo investimento.</p>
-                                <a class="btn green margin-10" href="#">Struttura un piano</a>
-                            </div>                                              
-                        </div> 
+                <div class="container-80 clearfix">
+                    <div class="banner-left">
+                        <h2>Struttura un piano</h2>
                     </div>
-                    <!-- /Contenitore 70% -->                             
+                    <div class="banner-right float-right">
+                        <ul class="list-style">
+                            <li>Sono</li>
+                            <li>Selezione <i class="fas fa-sort-down"></i></li>
+                            <li>
+                                <a class="btn lg green" href="#">Visualizza il tuo piano</a>
+                            </li>
+                        </ul>
+                    </div>                 
+                </div>
+                <!-- /Contenitore 80% -->
             </section>
-            <!-- /Fascia Blu della pagina -->              
-        </main>
-        <!-- /Corpo della pagina -->
+            <!-- /Sezione Banner grigia -->
 
-         
-        
-        <!-- Pulsante Help -->
-        <a class="btn green btn-lg" href="#">help</a>      
+            <section>
+                <div class="container-70">
+                    <!-- Sezione a due colonne -->
+                    <section id="need-level" class="clearfix w-100">
+                        <aside class="need-level-img float-left w-40">
+                            <img src="img/shakehands.svg" alt="Hands">
+                        </aside>
+                        <aside class="need-level-text float-right w-50">
+                            <h2>Solo l'inglese che ti serve davvero</h2>
+                            <p>Molto più di semplici conversazioni, le sessioni con i nostri tutor ricreano le più diverse situazioni professionali.</p>
+                            <div class="need-level-btn">
+                                <a class="btn lg green float-left w-50" href="#">Scopri il real life english</a>
+                                <a class="text-center float-left w-50" href="#">Un metodo totalemte improntato sullo speaking</a>
+                            </div>
+                        </aside>
+                    </section>
+                    <!-- /Sezione a due colonne -->
+                </div>
+                <!-- /Contenitore 80% -->
+            </section>
+
+            <!-- Sezione - Singolo contenuto -->
+            <section id="computer" class="text-center w-100">
+                <div class="container-50">
+                    <img src="img/set.svg" alt="PC">
+                    <h2>Ci trovi su Pc, Mobile e Tablet, <span class="green">24/7</span></h2>
+                    <p>Tutor da tutto il mondo disoinibili 24 ore al giorno 7 giorni su 7, anche nei weekend.</p>
+                    <p>Tutto direttamente sul tuo pc grazie alla videoconferenza integrata nella piattaforma e sui dispositivi mobile con app dedicata.</p>
+                    <a href="#">Come funziona</a>
+                </div>                
+            </section>
+            <!-- /Sezione - Singolo contenuto --> 
+            
+            <!-- Sezione - Primo Banner Blu  -->
+            <section id="first-banner-blue" class="bg-blue w-100">
+                <div class="container-60">
+                    <div class="w-50">
+                        <h2 class="c-white">Solo l'inglese che ti serve davvero</h2>
+                        <p>Molto più di semplici conversazioni, le sessioni con i nostri tutor ricreano le più diverse situazioni professionali.</p>
+                        <a class="btn lg green" href="#">Scopri Come</a>
+                    </div>
+                </div>
+            </section>
+            <!-- /Sezione - Primo Banner Blu  -->
+
+            <!-- Sezione - Struttura un piano - tre colonne  -->
+            <section id="section-plane">
+                <div class="container-50 clearfix">
+                    <div class="plane-title text-center">
+                        <h3 class="plane-h3">Struttura un piano</h3>
+                    </div>
+                    <div class="col-plane-sx float-left">
+                        <img src="img/student.svg" alt="Studente">
+                        <h3>Sono uno studente</h3>
+                        <p class="small-text">Desideri superare un esame certificato, migliorare la tua fluency o prepararti per un viaggio all'estero?</p>
+                        <div class="line blue"></div>
+                        <a class="blue" href="#">Struttura un piano</a>
+                    </div>
+                    <div class="col-plane-md float-left">
+                        <img src="img/worker.svg" alt="Studente">
+                        <h3>Sono un professionista</h3>
+                        <p class="small-text">Vuoi prepararti per un colloquio, migliorare la tua fluency o superare un esame certificato?</p>
+                        <div class="line green"></div>
+                        <a class="green" href="#">Struttura un piano</a>
+                    </div>
+                    <div class="col-plane-rx float-left">
+                        <img src="img/business.svg" alt="Studente">
+                        <h3>Sono uno studente</h3>
+                        <p class="small-text">Sei un HR in cerca di un piano formativo su misura e innovativoadatto pe la tua azienda?</p>
+                        <div class="line orange"></div>
+                        <a class="orange" href="#">Struttura un piano</a>
+                    </div>
+                </div>
+
+            </section>
+            <!-- /Sezione - Struttura un piano - tre colonne  --> 
+            
+            <!-- Sezione - Secondo Banner Blu  -->
+            <section id="second-banner-blue" class="bg-blue w-100">
+                <div class="container-60">
+                    <div class="w-50">
+                        <h2 class="c-white">Dubbi? Consulta le nostre <span class="orange">FAQs</span></h2>
+                        <p>Oppure contattaci via e-mail o su facebook</p>
+                    </div>
+                </div>
+            </section>
+            <!-- /Sezione - Primo Banner Blu  -->
+        </main>
+        <!-- /Main -->
+
+        <!-- Footer -->
+        <footer>
+            <div class="container-60 clearfix">
+                    <div class="footer-info float-left w-50">
+                        <ul>
+                            <h3 class="c-white">Azienda</h3>
+                            <li>
+                                <a href="#">Terms & Conditions</a>
+                            </li>
+                            <li>
+                                <a href="#">Privacy policy</a>
+                            </li>
+                            <li>
+                                <a href="#">Blog</a>
+                            </li>
+                            <li>
+                                <a href="#">Press</a>
+                            </li>
+                            <li>
+                                <a href="#">Contattaci</a>
+                            </li>
+                            <li>
+                                <a href="#">Cookie Settings</a>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-indirizzi float-right w-50">
+                        <h3 class="c-white">FLUENTIFY 2019</h3>
+                        <p>Designet and built in London & Torino</p>
+                        <span>Blinguo LDT <br>Company's registered number:8423300 <br> Telephone: +44 (0) 20 8133 8469</span>
+                    </div>
+
+            </div>
+        </footer>
+        <!-- /Footer -->
+
+
+        <!-- Pulsante Help - Fixed -->
+        <div id="help">
+            <a class="btn lg green" href="#">Help</a>
+        </div>        
+        <!-- /Pulsante Help - Fixed -->
     </body>
 </html>
